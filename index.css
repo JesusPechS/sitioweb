@@ -1,0 +1,529 @@
+{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', 'sans-serif';
+    margin: 0 ;
+}
+
+html{ 
+    scroll-behavior: smooth;
+}
+
+h1{ font-size:3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+/*
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #b695c0;
+}
+
+.color-acento{
+    color: #b695c0; }
+
+button:hover{
+    background-color: rgb(210, 66, 223);
+
+}
+
+.container{ 
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #b695c0;
+    font-size: 1.60em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover{
+    color: #b695c0;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/formacion-antropología-de-la-vejez-para-enfermería.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+#que-es{
+
+
+}
+#que-es .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+#objetivos{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#objetivos .container{
+    padding: 100px 00px;
+}
+#bojetivos h2{
+    margin-top: 0;
+    font-size: 5me;
+}
+#objetivos p{
+    display: none;
+}
+
+#objetivos .cartas{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 20px;
+    
+}
+
+.cartas:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/5bbff358d6c6ada5ce848e7b7a6b3f7cd0e08b99r1-712-706v2_hq.jpg);
+
+}
+
+.cartas:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/OIP.jpeg);
+}
+
+.cartas:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/R.jpeg);
+}
+.cartas:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/formacion-antropología-de-la-vejez-para-enfermería.webp);
+}
+
+#caracteristicas{
+
+}
+#caracteristicas .container{
+    text-align: center;
+    height: 80vh;
+}
+#caracteristicas li{
+    margin: 50px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#quienessomos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 80vh; 
+}
+
+footer{
+    background-color: rgb(245, 245, 245);
+
+}
+footer p{
+    margin: 0;
+    padding: 12;
+    color: rgb(100, 100, 100 );
+}
+footer .container{
+    height: 150px;  
+    display: flex;
+    justify-content:flex center ;
+    align-items: flex-end;
+
+
+
+
+
+    #objetivos .programas {
+        display: flex;
+        justify-content: center;
+    }
+
+    #objetivos p{
+        display: block;
+    }
+
+    #caracteristicas{
+        background-image: url("media/antropologia-forense-enfermeria1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 400px;
+        margin-left: 15px;
+        margin-block-end: 10px; 
+    }
+    
+
+    #carateristicas .container{
+        text-align: center;
+
+    }
+
+    #caracteristicas ul{
+        margin-left: 600px;
+    }
+}
+*/
+@media (min-width: 720px){
+    .container{ 
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    header{
+        background-color: rgb(245, 245, 245);
+    
+    }
+    
+    header .logo{
+        margin: 0;
+        padding: 25px 30px;
+        font-weight: bold;
+        color: #b695c0;
+        font-size: 1.60em;
+    }
+    
+    header .container{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    header a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    
+    }
+    
+    header a:hover{
+        color: #b695c0;
+    }
+    
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        color: white;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url(media/formacion-antropología-de-la-vejez-para-enfermería.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #que-es .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #que-es .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #que-es .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+
+    #tema2 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema2 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema2 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+
+    
+
+    #tema3 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema3 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema3 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema3.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+
+
+
+    #tema4 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema4 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema4 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema1.1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+
+
+    #tema5 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema5 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema5 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema5.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+
+    #tema6 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema6 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema6 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema6.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+
+    #tema7 .container{
+        display: flex;
+        justify-content: space-evenly; 
+        text-align: center;
+        padding: 200px 12px
+    }
+    #tema7 .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 30px 50px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #tema7 .contenedordeimagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)
+        ), url(media/tema7.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 500px;
+    }
+}
